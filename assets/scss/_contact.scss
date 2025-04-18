@@ -1,0 +1,483 @@
+.contact-wrapper {
+    
+
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #383838;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    p {
+        color: #383838;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-content {
+        padding: 50px;
+        border-radius: 32px;
+        border: 1px solid #ACACAC;
+
+    
+        @include breakpoint (max-lg){
+            padding: 50px;
+        }
+    
+        @include breakpoint (max-md){
+            padding: 40px;
+        }
+    
+        @include breakpoint (max-sm){
+            padding: 30px;
+        }
+    
+        .form-clt {
+            position: relative;
+    
+            span {
+                font-size: 18px;
+                font-weight: 400;
+                display: inline-block;
+                margin-bottom: 5px;
+                color: #383838;
+            }
+    
+            input,textarea {
+                padding: 16px 30px;
+                border: none;
+                outline: none;
+                border-radius: 8px;
+                border: 1px solid #ACACAC;
+                opacity: 0.5;
+                width: 100%;
+                font-size: 16px;
+                font-weight: 400;
+                background-color: $bg-color;
+                color: $text-color;
+    
+                @include breakpoint (max-sm){
+                   padding: 12px 20px;
+                }
+            }
+    
+    
+            textarea {
+                padding: 18px 30px 60px;
+    
+                @include breakpoint (max-sm){
+                    padding: 12px 20px 90px;
+                }
+            }
+    
+            &::placeholder {
+                color: $text-color;
+            }
+        }
+    
+        .from-cheak-items {
+            @include flex;
+            justify-content: space-between;
+    
+            .checkbox-single {
+                position: relative;
+                padding-left: 18px;
+                cursor: pointer;
+                display: block;
+
+                 input {
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0;
+                }
+
+                &:not(:last-child){
+                    margin-bottom: 10px;
+                }
+
+                .checkbox-area {
+                    .checkmark {
+                        position: absolute;
+                        left: 0;
+                        height: 18px;
+                        width: 18px;
+                        border-radius: 0;            
+                        border: 2px solid $theme-color;
+                        top: 5px;
+                        content: "";
+                    }
+
+                    input:checked ~ .checkmark {
+                        &::after {
+                            content: "\f00c";
+                            position: absolute;
+                            font-family: $fa;
+                            top: -6px;
+                            left: 3px;
+                            color: $theme-color;
+                            font-size: 11px;
+                        }
+
+                        background-color: $theme-color;
+                    }
+
+                    input:checked ~ .checkmark:after {
+                        display: block;
+                        color: $white;
+                    }
+                }
+            }
+    
+            .theme-btn {
+                padding: 16px 30px;
+             }
+    
+        }
+    }
+
+    .contact-box-items {
+        background-color: rgba(230, 31, 127, 1);
+        padding: 80px 70px 100px;
+        border-radius: 32px;
+
+        @include breakpoint (max-xl) {
+            padding: 60px 60px;
+        }
+
+        @include breakpoint (max-lg) {
+            padding: 50px 50px;
+        }
+
+        @include breakpoint (max-md) {
+            padding: 40px 40px;
+        }
+
+        @include breakpoint (max-sm) {
+            padding: 30px 30px;
+        }
+
+        .content {
+
+            h2 {
+                font-size: 48px;
+                font-weight: 700;
+                color: $white;
+                margin-bottom: 30px;
+                text-align: left;
+
+                @include breakpoint (max-sm) {
+                   font-size: 35px;
+                }
+            }
+
+            .list {
+
+                li {
+                    color: $white;
+                    @include flex;
+                    gap: 16px;
+                    line-height: 1;
+
+                    &:not(:last-child) {
+                        margin-bottom: 32px;
+                    }
+
+                    i {
+                        color: $white;
+                    }
+
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+
+            .social-item {
+                margin-top: 110px;
+
+                @include breakpoint (max-sm) {
+                    margin-top: 40px;
+                }
+
+                h3 {
+                    font-weight: 700;
+                    margin-bottom: 30px;
+                    color: $white;
+                   font-size: 24px;
+
+                }
+
+                .social-icon {
+                    @include flex;
+                    gap: 20px;
+
+                    a {
+                        color: $white;
+                        font-size: 30px;
+
+                        @include breakpoint (max-sm) {
+                           font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.style-2 {
+
+        .contact-content {
+        
+            .from-cheak-items {
+               
+                .checkbox-area {
+
+                    .checkmark {
+                        border: 2px solid $theme-color-2;
+                    }
+
+                    input:checked ~ .checkmark {
+                        background-color: $theme-color-2;
+                    }
+                }
+
+                .theme-btn {
+                    padding: 14px 40px;
+                    border-radius: 48px;
+                    background: #57437B;
+                 }
+        
+            }
+        }
+        .contact-box-items {
+            background-color: $theme-color-2;
+        }
+    }
+
+    &.style-3 {
+
+        .contact-content {
+
+            .from-cheak-items {
+               
+                .checkbox-area {
+
+                    .checkmark {
+                        border: 2px solid $theme-color-3;
+                    }
+
+                    input:checked ~ .checkmark {
+                        background-color: $theme-color-3;
+                    }
+                }
+
+                .text-color {
+                    color: #A7A7A7;
+                }
+
+                .theme-btn {
+                    padding: 14px 40px;
+                    border-radius: 8px;
+                    background: #BD844C;
+                 }
+        
+            }
+        }
+
+        .contact-box-items {
+            background-color: $theme-color-3 !important;
+        }
+    }
+
+    &.style-4 {
+
+        .contact-content {
+
+            .from-cheak-items {
+               
+                .checkbox-area {
+
+                    .checkmark {
+                        border: 2px solid $theme-color-4;
+                    }
+
+                    input:checked ~ .checkmark {
+                        background-color: $theme-color-4;
+                    }
+                }
+                
+                .theme-btn {
+                    padding: 14px 40px;
+                    border-radius: 8px;
+                    background: $theme-color-4;
+                 }
+        
+            }
+        }
+
+        .contact-box-items {
+            background-color: $theme-color-4 !important;
+        }
+    }
+
+    &.style-5 {
+
+        .contact-content {
+
+            .from-cheak-items {
+               
+                .checkbox-area {
+
+                    .checkmark {
+                        border: 2px solid $theme-color-5;
+                    }
+
+                    input:checked ~ .checkmark {
+                        background-color: $theme-color-5;
+                    }
+                }
+                
+                .theme-btn {
+                    padding: 14px 40px;
+                    border-radius: 8px;
+                    background: $theme-color-5;
+                 }
+        
+            }
+        }
+
+        .contact-box-items {
+            background-color: $theme-color-5 !important;
+        }
+    }
+    
+    &.style-6 {
+
+        .contact-content {
+
+            .from-cheak-items {
+               
+                .checkbox-area {
+
+                    .checkmark {
+                        border: 2px solid $theme-color-6;
+                    }
+
+                    input:checked ~ .checkmark {
+                        background-color: $theme-color-6;
+                    }
+                }
+                
+                .theme-btn {
+                    padding: 14px 40px;
+                    border-radius: 8px;
+                    background: $theme-color-6;
+                 }
+        
+            }
+        }
+
+        .contact-box-items {
+            background-color: $theme-color-6 !important;
+        }
+    }
+}
+
+.map-items {
+  
+    .googpemap {
+     
+  
+      iframe {
+        width: 100%;
+        height: 600px;
+      }
+    }
+  }
+
+.tab-content {
+
+    .account-from-item {
+
+        .user-item {
+            display: flex;
+            gap: 40px;
+            border-bottom: 1.5px solid rgba(0, 0, 0, 0.16);
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+
+            @include breakpoint (max-xl) {
+                flex-wrap: wrap;
+            }
+
+            .form-clt {
+                position: relative;
+                width: 100%;
+        
+                span {
+                    font-size: 13px;
+                    font-weight: 600;
+                    display: inline-block;
+                    margin-bottom: 5px;
+                    color: $black;
+                }
+        
+                input,textarea {
+                    padding: 6px 10px;
+                    border: none;
+                    outline: none;
+                    border-radius: 4px;
+                    border: 1.5px solid rgba(0, 0, 0, 0.16);
+                    width: 100%;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 0.36);
+                }
+
+                &::placeholder {
+                    color: rgba(0, 0, 0, 0.36);
+                }
+            }
+        }
+
+        .Personal-Information {
+
+            h3 {
+                font-size: 20px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            .form-clt {
+                position: relative;
+        
+                span {
+                    font-size: 13px;
+                    font-weight: 600;
+                    display: inline-block;
+                    margin-bottom: 5px;
+                    color: $black;
+                }
+        
+                input,textarea {
+                    padding: 6px 10px;
+                    border: none;
+                    outline: none;
+                    border-radius: 4px;
+                    border: 1.5px solid rgba(0, 0, 0, 0.16);
+                    width: 100%;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 0.36);
+                }
+
+                &::placeholder {
+                    color: rgba(0, 0, 0, 0.36);
+                }
+            }
+        }
+    }
+}

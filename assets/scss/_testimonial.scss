@@ -1,0 +1,130 @@
+.tetsimonial-items {
+    max-width: 1280px;
+    margin: 30px auto 0;
+    text-align: center;
+
+    p {
+        font-size: 20px;
+    }
+
+    .client-info {
+        margin-top: 30px;
+
+        .client-thumb {
+            margin-bottom: 15px;
+        }
+
+        h6 {
+            font-family: $heading-font-2;
+        }
+
+        .star {
+            font-size: 24px;
+            color: #FFCC00;
+            margin-top: 20px;
+        }
+    }
+}
+
+.testimonial-section {
+    .swiper-dot {
+        position: relative;
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            transition: 0.6s;
+            background: transparent;
+            border: 1px solid rgba(230, 31, 127, 0.40);
+            opacity: 1;
+            border-radius: 12px;
+            &:not(:last-child){
+            margin-right: 10px;
+            }
+        }
+
+        .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: $theme-color;
+            transition: 0.6s;
+            position: relative;
+        }
+
+        &.style-2 {
+            .swiper-pagination-bullet {
+             
+                border: 1px solid rgba(1, 15, 28, 0.40);
+            }
+
+            .swiper-pagination-bullet.swiper-pagination-bullet-active {
+                background: #010F1C;
+            }
+        }
+    }
+}
+
+.testimoial-box-items {
+    margin-top: 30px;
+    background-color: #F4EEFF;
+    padding: 50px;
+    position: relative;
+
+    .quote-icon {
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .star {
+        color: #FFCC00;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: $heading-font-3;
+    }
+
+    .client-info {
+        @include flex;
+        gap: 15px;
+        margin-top: 20px;
+
+        .client-img {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-family: $heading-font-3;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+}
+
+.testimonial-section-2 {
+    .swiper-dot {
+       position: relative;
+        .swiper-pagination-bullet {
+            width: 9px;
+            height: 9px;
+            transition: 0.6s;
+            background: rgba(87, 67, 123, 0.51);
+            opacity: 1;
+            border-radius: 15px;
+            &:not(:last-child){
+            margin-right: 10px;
+            }
+        }
+        .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: #57437B;
+            transition: 0.6s;
+            position: relative;
+            width: 23px;
+        }
+      }
+}

@@ -1,0 +1,98 @@
+.faq-section {
+    background-color: #FFEBF5;
+}
+
+.faq-items {
+    max-width: 1070px;
+    margin: 0 auto;
+
+    .accordion {
+        margin: 0;
+        .accordion-item {
+            border: none;
+            background: transparent;
+
+            &:not(:last-child){
+                border-bottom: 1px solid #cecbcb;
+            }
+
+            h2 {
+                button {
+                    font-size: 24px;
+                    line-height: 1;
+                    font-weight: 600;
+                    box-shadow: none;
+                    padding: 40px 60px 25px;
+                    font-family: $heading-font;
+                    color: $theme-color;
+                    border-radius: 80px;
+                    background:#FFD6EA;
+                    border-radius: 0;
+                    //border-radius: 10px 10px 0 0 !important;
+
+                    @include breakpoint (max-sm){
+                        font-size: 17px;
+                    }
+                }
+            }
+            .accordion-body {
+                padding: 0 60px 35px;
+                background:#FFD6EA;
+               // border-radius: 0 0 10px 10px !important;
+                
+                p {
+                    color: #636363;
+                    font-size: 16px;
+                    line-height: 32px;
+                    font-weight: 400;
+                     max-width: 750px;
+                     
+
+                    @include breakpoint(max-sm) {
+                        width: 100%;
+                        font-size: 14px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+        .accordion-button {
+            background-color: transparent;
+            color: $header-color;
+
+            &::after {
+                display: none;
+                background-color: #FFD6EA;
+            }
+            &::before {
+                position: absolute;
+                content: "\f068";
+                font-family: "Font Awesome 6 Pro";
+                font-weight: 700;
+                top: 25px;
+                right: 30px;
+                font-size: 13px;
+                text-align: center;
+                @include transition;
+                color: $white;
+                width: 26px;
+                height: 26px;
+                line-height: 26px;
+                text-align: center;
+                border-radius: 5px;
+                background-color: $theme-color;
+            }
+        }
+        .accordion-button.collapsed {
+            background-color: transparent;
+            color: $header-color;
+            padding: 40px 60px;
+            
+            &::before {
+                content: "\2b";
+                background-color: #FFD6EA;
+                color: $header-color;
+            }
+        }
+    }
+}

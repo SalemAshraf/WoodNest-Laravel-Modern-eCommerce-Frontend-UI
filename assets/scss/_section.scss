@@ -1,0 +1,134 @@
+
+//>>>>> Section Title Start <<<<<//
+
+.section-title {
+	position: relative;
+	z-index: 99;
+	margin-bottom: 30px;
+	margin-top: -1px;
+
+	@include breakpoint (max-md){
+		margin-bottom: 0;
+	}
+
+    h6 {
+        color: #E61F7F;
+        font-size: 12px;
+        font-family: $header-color-2;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 40px;
+
+        span {
+            color: $theme-color;
+        }
+    }
+
+	&.style-2 {
+		h6 {
+			color: #57437B
+		}
+
+		h2 {
+			
+		}
+	}
+
+	&.style-3 {
+		h6 {
+			font-size: 12px;
+			font-weight: 500;
+			font-family: $heading-font-4;
+			color: $theme-color-3;
+		}
+
+		h2 {
+			font-size: 46px;
+			font-family: $heading-font-4;
+
+			span {
+				color: $theme-color-3
+			}
+		}
+	}
+
+	&.style-5 {
+		position: relative;
+		z-index: 9;
+
+		h2 {
+			font-size: 40px;
+			font-weight: 400;
+			text-transform: uppercase;
+			color: $theme-color-5;
+			font-family: $heading-font-5;
+			position: relative;
+			display: inline-block;
+
+			.shape-image {
+				position: absolute;
+				top: -39px;
+				left: -62px;
+				z-index: -1;
+			}
+		}
+	}
+
+	&.style-6 {
+		h2 {
+			font-size: 32px;
+			color: $theme-color-6;
+			font-weight: 600;
+			font-family: $heading-font-4;
+		}
+	}
+
+}
+
+.section-title-area	{
+	@include flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 9;
+
+	@include breakpoint (max-lg) {
+		flex-wrap: wrap;
+		// justify-content: center;
+		// text-align: center;
+		gap: 30px;
+	}
+
+	// p {
+	// 	font-size: 16px;
+	// 	font-weight: 600;
+	// 	line-height: 175%;
+	// 	color: $text-color;
+	// 	font-style: italic;
+	// 	border-left: 1px solid #6A47ED;
+	// 	padding-left: 20px;
+
+
+	// }
+}
+
+
+//>>>>> Section Title End <<<<<//
+
+//>>>>> Basic Css Start <<<<<//
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+
+//>>>>> Basic Css End <<<<<//
+
