@@ -519,322 +519,444 @@
 
       <!-- breadcrumb section start -->
       <section
-        class="breadcrumb-section fix bg-cover mb-4"
+        class="breadcrumb-section fix bg-cover"
         style="background-image: url(assets/img/breadcrumb-3.jpg)"
       >
         <div class="container">
           <div class="page-heading">
-            <h2 class="wow fadeInUp" data-wow-delay=".5s">Checkout</h2>
+            <h2 class="wow fadeInUp" data-wow-delay=".5s">Wishlist</h2>
           </div>
         </div>
       </section>
 
-      <!-- Checkout section start -->
-      <section class="checkout-section fix section-padding">
+      <!-- Shop Section Start -->
+      <section class="shop-section section-padding">
         <div class="container">
-          <div class="checkout-wrapper style-3">
-            <div class="row g-4 justify-content-center">
-              <div class="container">
-                <div class="shipping-box-items">
-                  <p>
-                    Add <b>$901.00</b> to cart and get
-                    <strong>free shipping!</strong>
-                  </p>
-                  <div class="pro-items">
-                    <div class="progress">
-                      <div class="progress-value"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="checkout-left-items">
-                  <h3>Billing details</h3>
-                  <form action="#" class="checkout-box">
-                    <div class="row g-4">
-                      <div class="col-lg-6">
-                        <div class="input-single">
-                          <span>First Name*</span>
-                          <input
-                            type="text"
-                            name="user-first-name"
-                            id="userFirstName"
-                            required=""
-                            placeholder="First Name"
-                          >
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="input-single">
-                          <span>Last Name*</span>
-                          <input
-                            type="text"
-                            name="user-last-name"
-                            id="userLastName"
-                            required=""
-                            placeholder="Last Name"
-                          >
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>Company name (optional)</span>
-                          <input name="company-name" id="companyname" >
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>Country / Region *</span>
-                          <div class="nice-select" tabindex="0">
-                            <span class="current">United States</span>
-                            <ul class="list">
-                              <li
-                                data-value="United States"
-                                class="option selected"
-                              >
-                                United States
-                              </li>
-                              <li data-value="India" class="option">India</li>
-                              <li data-value="Spain" class="option">Spain</li>
-                              <li data-value="Qatar" class="option">Qatar</li>
-                              <li data-value="Germany" class="option">
-                                Germany
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>Street Address*</span>
-                          <input
-                            name="user-address"
-                            id="userAddress"
-                            placeholder="Home number and street name"
-                          >
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>Town/ City*</span>
-                          <input name="towncity" id="towncity" >
-                        </div>
-                      </div>
-
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>Postcode / ZIP </span>
-                          <input name="user-address" placeholder="" >
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>Phone*</span>
-                          <input name="phone" id="phone" placeholder="phone" >
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>Email Address*</span>
-                          <input
-                            name="email"
-                            id="email22"
-                            placeholder="email"
-                          >
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-check payment-save style-2">
-                          <input
-                            type="checkbox"
-                            class="form-check-input mt-0"
-                            name="save-for-next"
-                            id="saveForNext2"
-                          >
-                          <label for="saveForNext2"
-                            >Ship to a different address?</label
-                          >
-                        </div>
-                      </div>
-                      <div class="col-lg-12">
-                        <div class="input-single">
-                          <span>order notes (optional)</span>
-                          <textarea
-                            name="notes"
-                            id="notes"
-                            placeholder="Notes about your order, e.g special notes for delivery."
-                          ></textarea>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="checkout-right-items">
-                  <h4>Your order</h4>
-                  <div class="d-block">
-                    <div class="mobile-cart-item mb-4 p-3 border rounded">
-                      <div
-                        class="d-flex justify-content-between align-items-start flex-column"
-                      >
-                        <div class="d-flex align-items-center w-100">
-                          <img
-                            class="me-3"
-                            src="assets/img/cart/05.jpg"
-                            alt="product"
-                            width="60"
-                          >
-                          <div class="d-flex w-100 justify-content-between">
-                            <h6 class="mb-0">Radiance Face Serum</h6>
-                            <div class="x-mark">
-                              <span class="x-mark style-3"
-                                ><i class="fas fa-times"></i
-                              ></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="price-usd mt-2 w-100 d-flex justify-content-between"
-                        >
-                          <p>Price:</p>
-                          <p>$599</p>
-                        </div>
-                      </div>
-                      <div class="price-usd d-flex justify-content-between">
-                        <p>Quantity:</p>
-                        <div
-                          class="quantity-mobile d-flex justify-content-between align-items-center"
-                        >
-                          <div
-                            class="quantity style-3 d-inline-flex align-items-center justify-content-center n50-border_20 text-sm"
-                          >
-                            <button class="quantityDecrement">
-                              <i class="fal fa-minus"></i>
-                            </button>
-                            <input
-                              type="text"
-                              value="1"
-                              class="quantityValue"
-                            >
-                            <button class="quantityIncrement">
-                              <i class="fal fa-plus"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="price-usd d-flex justify-content-between">
-                        <p>Subtotal:</p>
-                        <p>$1,899</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="checkout-button">
-                    <div class="cheackout-input">
-                      <input type="email" id="email2" placeholder="Input" >
-                    </div>
-                    <button class="newsletter-btn" type="submit">
-                      <span>Apply</span>
-                    </button>
-                  </div>
-                  <ul class="order-list">
+          <div class="row">
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/12.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
                     <li>
-                      <span>
-                        <img
-                          src="assets/img/icon/ticket-percent.svg"
-                          alt="img"
-                        >
-                        JenkateMW
-                      </span>
-                      <span class="color">-$25.00 [Remove]</span>
-                    </li>
-                    <li>
-                      Shipping
-                      <span>$55.00</span>
-                    </li>
-                    <li>
-                      Subtotal
-                      <span>$99.00</span>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
                     </li>
                   </ul>
-                  <div class="list-item">
-                    <h5>Total</h5>
-                    <h5>$234.00</h5>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html"
+                      >Elegant Rose Gold Serving Cart</a
+                    >
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
+                      >
+                    </a>
                   </div>
-                  <div class="woocommerce-checkout-payment mt-2">
-                    <ul class="wc_payment_methods payment_methods methods">
-                      <li class="wc_payment_method payment_method_bacs">
-                        <input
-                          id="payment_method_bacs"
-                          type="radio"
-                          class="input-radio"
-                          name="payment_method"
-                          value="bacs"
-                          checked="checked"
-                        >
-                        <label for="payment_method_bacs"
-                          >Direct bank transfer</label
-                        >
-                        <div class="payment_box payment_method_bacs"></div>
-                      </li>
-                      <li class="wc_payment_method payment_method_cheque">
-                        <input
-                          type="radio"
-                          class="input-radio"
-                          name="payment_method"
-                          value="cheque"
-                          id="payment_method_cheque1"
-                        >
-                        <label for="payment_method_cheque1"
-                          >Cheque Payment</label
-                        >
-                      </li>
-                      <li class="wc_payment_method payment_method_cheque">
-                        <input
-                          id="payment_method_cheque"
-                          type="radio"
-                          class="input-radio"
-                          name="payment_method"
-                          value="cheque"
-                        >
-                        <label for="payment_method_cheque"
-                          >Cash on delivery</label
-                        >
-                      </li>
-                      <li class="wc_payment_method payment_method_cod">
-                        <input
-                          id="payment_method_cod"
-                          type="radio"
-                          class="input-radio"
-                          name="payment_method"
-                        >
-                        <label for="payment_method_cod"
-                          >PayPal <img src="assets/img/paypal.png" alt="image"
-                        ></label>
-                      </li>
-                    </ul>
-                    <p>
-                      Your personal data will be used to process your order,
-                      support your experience throughout this website, and for
-                      other purposes described in our
-                      <span>Privacy policy</span>
-                    </p>
-                    <div class="input-check payment-save">
-                      <input
-                        type="checkbox"
-                        class="form-check-input mt-0"
-                        name="save-for-next"
-                        id="saveForNext111"
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/13.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html">Go Chic Champagne Side Table</a>
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
                       >
-                      <label for="saveForNext111"
-                        >read and agree <span>Terms and conditions</span></label
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".6s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/18.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html"
+                      >Opulent Platinum Bedside Table</a
+                    >
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
                       >
-                    </div>
-                    <div class="form-row place-order">
-                      <button type="submit" class="theme-btn w-100">
-                        <span>Proceed to PayPal</span>
-                      </button>
-                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".8s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/14.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html"
+                      >Elegant Mahogany Light Stand</a
+                    >
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".6s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/18.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html"
+                      >Opulent Platinum Bedside Table</a
+                    >
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/12.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html"
+                      >Elegant Rose Gold Serving Cart</a
+                    >
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/13.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html">Go Chic Champagne Side Table</a>
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
+              data-wow-delay=".8s"
+            >
+              <div class="latest-project-items style-3 style-padding-3 style-4">
+                <div class="thumb">
+                  <img src="assets/img/latest-product/14.jpg" alt="img" >
+                  <ul class="shop-icon wish-icon">
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <ul class="shop-icon">
+                    <li class="wish">
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-heart"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-share"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="shop-details-3.html"
+                        ><i class="fa-solid fa-arrow-up-arrow-down"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="content">
+                  <h3>
+                    <a href="shop-details-3.html"
+                      >Elegant Mahogany Light Stand</a
+                    >
+                  </h3>
+                  <h3 class="price">$19.00</h3>
+                  <p>Gold vermeil, pearl</p>
+                  <div class="product-btn">
+                    <a href="shop-details-3.html" class="icon"
+                      ><i class="fa-regular fa-eye"></i
+                    ></a>
+                    <a href="shop-details-3.html" class="theme-btn">
+                      <span
+                        ><i class="fa-light fa-bag-shopping"></i> Add to
+                        cart</span
+                      >
+                    </a>
                   </div>
                 </div>
               </div>
@@ -843,94 +965,94 @@
         </div>
       </section>
 
-       <!-- Footer Section Start -->
-       <footer class="foote-section-3">
-        <div class="container">
-            <div class="footer-widgwt-wrapper style-2 style-3">
-                <div class="row justify-content-between">
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="footer-widget-items">
-                            <div class="widget-head">
-                                <a href="index.html" class="footer-logo">
-                                    <img src="assets/img/logo/Title.png" alt="img" style="width: 203px" >
-                                </a>
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Donec mattis porta eros, aliquet finibus risus interdum
-                                    at. Nulla vivethe as it was for us to know what was to be
-                                    done. the this is a long post for the text.`This small
-                                    text has to be place here, since this
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="footer-widget-items">
-                            <div class="widget-head">
-                                <br >
-                            </div>
-                            <ul class="list-area">
-                                <li><a href="about-3.html">About us</a></li>
-                                <li><a href="contact-3.html">Services</a></li>
-                                <li><a href="news-3.html">Blog</a></li>
-                                <li><a href="contact-3.html">Contact us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="footer-widget-items">
-                            <div class="widget-head">
-                                <br >
-                            </div>
-                            <ul class="list-area">
-                                <li><a href="contact-3.html">Jobs</a></li>
-                                <li><a href="contact-3.html">Our team</a></li>
-                                <li><a href="contact-3.html">Leadership</a></li>
-                                <li><a href="contact-3.html">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
-                        <div class="footer-newsletter-3">
-                            <div class="news-letter-items">
-                                <div class="email-icon">
-                                    <img src="assets/img/icon/email.svg" alt="img" >
-                                    <span>Subscribe to Newsletter</span>
-                                </div>
-                                <div class="row g-4">
-                                    <div class="col-md-12 w-auto">
-                                        <div class="news-input">
-                                            <input type="text" name="name" id="email6"
-                                                placeholder="Enter your e-mail" >
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <button class="icon-submit" type="submit">
-                                            <img src="assets/img/icon/paper-icon.svg" alt="img" >
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom-wrapper style-3">
-                <p class="wow fadeInUp" data-wow-delay=".3s">
-                    &nbsp;© 2025 All Rights reserved | by&nbsp;<b>WoodNest</b>.
-                </p>
-                <ul class="footer-menu wow fadeInUp" data-wow-delay=".5s">
-                    <li>
-                        <a href="contact-3.html"> Terms & Conditions </a>
-                    </li>
-                    <li>
-                        <a href="contact-3.html"> Privacy Policy </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+     <!-- Footer Section Start -->
+     <footer class="foote-section-3">
+      <div class="container">
+          <div class="footer-widgwt-wrapper style-2 style-3">
+              <div class="row justify-content-between">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                      <div class="footer-widget-items">
+                          <div class="widget-head">
+                              <a href="index.html" class="footer-logo">
+                                  <img src="assets/img/logo/Title.png" alt="img" style="width: 203px" >
+                              </a>
+                          </div>
+                          <div class="content">
+                              <p>
+                                  Donec mattis porta eros, aliquet finibus risus interdum
+                                  at. Nulla vivethe as it was for us to know what was to be
+                                  done. the this is a long post for the text.`This small
+                                  text has to be place here, since this
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                      <div class="footer-widget-items">
+                          <div class="widget-head">
+                              <br >
+                          </div>
+                          <ul class="list-area">
+                              <li><a href="about-3.html">About us</a></li>
+                              <li><a href="contact-3.html">Services</a></li>
+                              <li><a href="news-3.html">Blog</a></li>
+                              <li><a href="contact-3.html">Contact us</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                      <div class="footer-widget-items">
+                          <div class="widget-head">
+                              <br >
+                          </div>
+                          <ul class="list-area">
+                              <li><a href="contact-3.html">Jobs</a></li>
+                              <li><a href="contact-3.html">Our team</a></li>
+                              <li><a href="contact-3.html">Leadership</a></li>
+                              <li><a href="contact-3.html">Privacy Policy</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
+                      <div class="footer-newsletter-3">
+                          <div class="news-letter-items">
+                              <div class="email-icon">
+                                  <img src="assets/img/icon/email.svg" alt="img" >
+                                  <span>Subscribe to Newsletter</span>
+                              </div>
+                              <div class="row g-4">
+                                  <div class="col-md-12 w-auto">
+                                      <div class="news-input">
+                                          <input type="text" name="name" id="email6"
+                                              placeholder="Enter your e-mail" >
+                                      </div>
+                                  </div>
+                                  <div class="col-md-2">
+                                      <button class="icon-submit" type="submit">
+                                          <img src="assets/img/icon/paper-icon.svg" alt="img" >
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-bottom-wrapper style-3">
+              <p class="wow fadeInUp" data-wow-delay=".3s">
+                  &nbsp;© 2025 All Rights reserved | by&nbsp;<b>WoodNest</b>.
+              </p>
+              <ul class="footer-menu wow fadeInUp" data-wow-delay=".5s">
+                  <li>
+                      <a href="contact-3.html"> Terms & Conditions </a>
+                  </li>
+                  <li>
+                      <a href="contact-3.html"> Privacy Policy </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </footer>
     </div>
 
     <!--<< All JS Plugins >>-->
