@@ -59,17 +59,11 @@ All pages will be converted into Laravel Blade templates in `/resources/views`.
 
 ---
 
-## 🔗 Related Projects
-
-- **[WoodNest WordPress Theme](#)** – Modern WooCommerce theme compatible with Elementor and Gutenberg
-
----
-
 ## 👤 Author
 
 **Salem Ashraf**  
 CEO & Founder – Reviv Solutions LTD  
-🌐 [https://revivsolutions.com](https://revivsolutions.com)
+🌐 [My Website](https://salem.revivsolutions.com/)
 
 ---
 
