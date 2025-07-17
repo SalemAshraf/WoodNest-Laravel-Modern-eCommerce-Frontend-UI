@@ -62,8 +62,9 @@ All pages will be converted into Laravel Blade templates in `/resources/views`.
 ## 👤 Author
 
 **Salem Ashraf**  
-CEO & Founder – Reviv Solutions LTD  
-🌐 [My Website](https://salem.revivsolutions.com/)
+Founder – Reviv Solutions LTD  
+🔗 [LinkedIn](https://linkedin.com/in/salem-ashraf)  
+🌐 [Company Website](https://salem.revivsolutions.com)
 
 ---
 
